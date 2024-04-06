@@ -4,6 +4,7 @@ https://www.thingiverse.com/thing:736693
 # Hardware
 - Rockpi 4 SE, or any board that has an I2C interfaces)
 - PWM Servo driver board 16 Channel, using only one channel though
+- SG90 Servo 360 degree
 
 # Software
 - PCA9685.py: driver code for the PWM board.

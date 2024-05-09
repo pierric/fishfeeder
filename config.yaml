@@ -1,0 +1,18 @@
+name: "Fishfeeder"
+description: "A fishfeeder using PWM shield via I2C"
+version: "0.0.1"
+slug: "i2c_fishfeeder"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+log_level: info
+startup: services
+privileged:
+  - SYS_ADMIN
+devices:
+  - /dev/i2c-7
+device_tree: true
